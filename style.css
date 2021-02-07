@@ -33,4 +33,15 @@
 #meal-details img{
     height: 400px;
     width: 100%;
+    border-radius: 10px;
+}
+#exit-btn{
+    border: none;
+    outline: none;
+    position: absolute;
+    right: -30px;
+    top: 0px;
+    background: transparent;
+    font-weight: 900;
+    cursor: pointer;
 }

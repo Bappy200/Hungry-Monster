@@ -63,13 +63,12 @@ function displayMealData(data){
     })
     const img = document.getElementById('meal-image');
     img.src = data.strMealThumb;
-
+    console.log(data)
+    document.getElementById('meal-name').innerText = data.strMeal;
     document.getElementById('item1').innerText =  data.strMeasure1;
     document.getElementById('item2').innerText =  data.strMeasure2;
     document.getElementById('item3').innerText =  data.strMeasure3;
-    document.getElementById('item4').innerText =  data.strMeasure4;
-  
-
-  
-    
+    document.getElementById('item4').innerText =  data.strMeasure4;  
+    document.getElementById('item5').innerText =  data.strMeasure5; 
+    document.getElementById('item6').innerText =  data.strMeasure6;   
 }
